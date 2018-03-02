@@ -568,7 +568,7 @@ adding the EOL token to Metamask
 ico.eolcoin.eth
 </h1>
 <h1 id="eolcoin-address">
-0xbd3696b01a487b012ba<br>99628b06a1a7859f5ca23
+0x
 </h1>
 </div>
 <div class="clear"></div>
@@ -689,7 +689,7 @@ to complete your donation:</p>
 <script>
 window.addEventListener('load', function () {
 
-  var ICO = icoContract.at('0xbd3696b01a487b012ba99628b06a1a7859f5ca23'); //mainet
+  var ICO = icoContract.at('0x'); //mainet
 
   ICO.tokenValue(function(e,r){
     var tValue = r.toFixed()
@@ -877,7 +877,7 @@ $(window).on('load', function () {
 //-----QR code-----
 (function() {
     var qr = EolCoinQR({
-            address: '0xbd3696b01a487b012ba99628b06a1a7859f5ca23',
+            address: '0x',
             value: '10000000000000000',
             gas: 200000
         });
@@ -885,7 +885,7 @@ $(window).on('load', function () {
 </script>
 <script>
 
-    var ICO = icoContract.at('0xbd3696b01a487b012ba99628b06a1a7859f5ca23'); //mainet
+    var ICO = icoContract.at('0x'); //mainet
     var remainingTokens;
     ICO.remainingTokens(function(e,r){
 
