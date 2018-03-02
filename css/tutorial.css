@@ -1,1 +1,79 @@
-#tutorial-btn{margin-top:20px;color:#fff;background-color:#4ecc20;border-color:#16bb21;box-shadow:0 0 20px #4ecc20,0 0 20px transparent}#tutorial-btn:hover{background-color:#16bb21}div#exampleModalLong{padding-left:0!important}.modal-header{background:#337ab7;border-top-left-radius:6px;border-top-right-radius:6px;font-size:25px}.modal-header h2{color:#fff}#step1 p,#step2 p,#step3 p,#summary p{color:#272a2d}.img-tutorial{width:100%}.margin-top-50{margin-top:50px}.glyphicon-arrow-left,.glyphicon-arrow-right{font-size:40px;color:#4ecc20}#close-modal-btn{height:50px;width:130px;font-size:20px;background-color:#4ecc20}@media(min-width:768px){.hide-lg{display:none}.flex{display:flex;justify-content:center;align-items:center}.text-right-lg{text-align:right}.text-left-lg{text-align:left}.modal-dialog{width:90%;max-width:920px}}@media(max-width:767px){.hide-sm{display:none}.center-img{margin:0 auto;width:300px}}@media(max-width:375px){.hide-sm{display:none}.center-img{margin:0 auto;width:270px}}
+#tutorial-btn{
+    margin-top:20px;
+    color:#fff;
+    background-color:#4ecc20;
+    border-color:#16bb21;
+    box-shadow:0 0 20px #4ecc20,0 0 20px transparent
+}
+#tutorial-btn:hover{
+    background-color:#16bb21
+}
+div#exampleModalLong{
+    padding-left:0!important
+}
+.modal-header{
+    background:#337ab7;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    font-size:25px
+}
+.modal-header h2{
+    color:#fff
+}
+#step1 p,#step2 p,#step3 p,#summary p{
+    color:#272a2d
+}
+.img-tutorial{
+    width:100%
+}
+.margin-top-50{
+    margin-top:50px
+}
+.glyphicon-arrow-left,.glyphicon-arrow-right{
+    font-size:40px;
+    color:#4ecc20
+}
+#close-modal-btn{
+    height:50px;
+    width:130px;
+    font-size:20px;
+    background-color:#4ecc20
+}
+@media(min-width:768px){
+    .hide-lg{
+        display:none
+    }
+    .flex{
+        display:flex;
+        justify-content:center;
+        align-items:center
+    }
+    .text-right-lg{
+        text-align:right
+    }
+    .text-left-lg{
+        text-align:left
+    }
+    .modal-dialog{
+        width:90%;
+        max-width:920px
+    }
+}
+@media(max-width:767px){
+    .hide-sm{
+        display:none
+    }
+    .center-img{
+        margin:0 auto;
+        width:300px
+    }
+}
+@media(max-width:375px){
+    .hide-sm{
+        display:none
+    }
+    .center-img{
+        margin:0 auto;
+        width:270px
+    }
+}
